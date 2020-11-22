@@ -1,0 +1,16 @@
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\bin\Debug\netcoreapp3.1\LinqSelfProgrammed.exe
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\bin\Debug\netcoreapp3.1\LinqSelfProgrammed.deps.json
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\bin\Debug\netcoreapp3.1\LinqSelfProgrammed.runtimeconfig.json
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\bin\Debug\netcoreapp3.1\LinqSelfProgrammed.runtimeconfig.dev.json
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\bin\Debug\netcoreapp3.1\LinqSelfProgrammed.dll
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\bin\Debug\netcoreapp3.1\LinqSelfProgrammed.pdb
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\bin\Debug\netcoreapp3.1\MyLinqLib.dll
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\bin\Debug\netcoreapp3.1\MyLinqLib.pdb
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\obj\Debug\netcoreapp3.1\LinqSelfProgrammed.csprojAssemblyReference.cache
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\obj\Debug\netcoreapp3.1\LinqSelfProgrammed.AssemblyInfoInputs.cache
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\obj\Debug\netcoreapp3.1\LinqSelfProgrammed.AssemblyInfo.cs
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\obj\Debug\netcoreapp3.1\LinqSelfProgrammed.csproj.CoreCompileInputs.cache
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\obj\Debug\netcoreapp3.1\LinqSelfProgrammed.csproj.CopyComplete
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\obj\Debug\netcoreapp3.1\LinqSelfProgrammed.dll
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\obj\Debug\netcoreapp3.1\LinqSelfProgrammed.pdb
+C:\Users\jonas\source\repos\LinqSelfProgrammedHue\LinqSelfProgrammed\obj\Debug\netcoreapp3.1\LinqSelfProgrammed.genruntimeconfig.cache

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LinqSelfProgrammed/1.0.0": {
+        "dependencies": {
+          "MyLinqLib": "1.0.0"
+        },
+        "runtime": {
+          "LinqSelfProgrammed.dll": {}
+        }
+      },
+      "MyLinqLib/1.0.0": {
+        "runtime": {
+          "MyLinqLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LinqSelfProgrammed/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyLinqLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
