@@ -8,26 +8,28 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\jonas\\.nuget\\packages\\": {}
+    "/home/jonas/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonas\\source\\repos\\LinqSelfProgrammedHue\\MyLinqLib\\MyLinqLib.csproj",
+      "projectUniqueName": "/home/jonas/_Data/scl/HTL/4Klasse/POS/LinqSelfProgrammedHue/MyLinqLib/MyLinqLib.csproj",
       "projectName": "MyLinqLib",
-      "projectPath": "C:\\Users\\jonas\\source\\repos\\LinqSelfProgrammedHue\\MyLinqLib\\MyLinqLib.csproj",
-      "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonas\\source\\repos\\LinqSelfProgrammedHue\\MyLinqLib\\obj\\",
+      "projectPath": "/home/jonas/_Data/scl/HTL/4Klasse/POS/LinqSelfProgrammedHue/MyLinqLib/MyLinqLib.csproj",
+      "packagesPath": "/home/jonas/.nuget/packages/",
+      "outputPath": "/home/jonas/_Data/scl/HTL/4Klasse/POS/LinqSelfProgrammedHue/MyLinqLib/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/jonas/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
       }
     }
   }

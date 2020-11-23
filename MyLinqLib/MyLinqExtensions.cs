@@ -268,17 +268,26 @@ namespace MyLinqLib
             }
             return ret;
         }
+
+        public static List<T> ToList<T>(this IEnumerable<T> source)
+        {
+            return new List<T>(source);
+        }
         #endregion Projection
 
         #region Sort
-        public static IEnumerable<T> OrderBy<T>(this IEnumerable<T> source, Func<T, double> comparer)
+        public static IEnumerable<TSource> OrderBy<TSource, TKey>(
+            this IEnumerable<TSource> source,
+            Func<TSource, TKey> keySelector,
+            IComparer<TKey> comparer = null)
         {
-            var sorted = new List<T>(source);
-            for (int i = 1; i < sorted.Count(); i++)
+            var comp = comparer ?? Comparer<TKey>.Default;
+            var sorted = new List<TSource>(source);
+            for (var i = 1; i < sorted.Count(); i++)
             {
                 var sortValue = sorted.ElementAt(i);
-                int j = i;
-                while ((j > 0) && (comparer(sorted[j - 1]) > comparer(sortValue)))
+                var j = i;
+                while (j > 0 && comp.Compare( keySelector(sorted[j - 1]), keySelector(sortValue)) > 0)
                 {
                     sorted[j] = sorted[j - 1];
                     j -= 1;
@@ -288,7 +297,17 @@ namespace MyLinqLib
             return sorted;
         }
 
-        public static IEnumerable<T> OrderByDescending<T>(this IEnumerable<T> source, Func<T, double> comparer) => source.OrderBy(element => -1.0 * comparer(element));
+        public static IEnumerable<TSource> OrderByDescending<TSource, TKey>(
+            this IEnumerable<TSource> source,
+            Func<TSource, TKey> keySelector,
+            IComparer<TKey> comparer = null)
+        {
+            var comp = comparer ?? Comparer<TKey>.Default;
+            return source.OrderBy(
+                keySelector,
+                Comparer<TKey>.Create((a, b) => -1 * comp.Compare(a, b))
+            );
+        }
 
         public static IEnumerable<T> Revert<T>(this IEnumerable<T> source)
         {
@@ -300,5 +319,6 @@ namespace MyLinqLib
             return ret;
         }
         #endregion Sort
+
     }
 }

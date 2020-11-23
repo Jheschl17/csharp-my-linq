@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ktvp77S86kRzuPdsaG0Caoxg7gMg6UO1FFwoBcaJfkRkW4Obzkvrsi5agWyMIbfEU3iSs7e+Xf+Ohx+D5KBtnw==",
+  "dgSpecHash": "Igr41sTrVepEzppftDaein+VknhQlb0tabiEy18ftGD/LLIfrA0/iQq/Cp+PMh5PvVSBJMOC4cqorsonEdwxYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jonas\\source\\repos\\LinqSelfProgrammedHue\\MyLinqLib\\MyLinqLib.csproj",
+  "projectFilePath": "/home/jonas/_Data/scl/HTL/4Klasse/POS/LinqSelfProgrammedHue/MyLinqLib/MyLinqLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
